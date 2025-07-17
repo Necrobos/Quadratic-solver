@@ -1,3 +1,5 @@
+package org.example;
+
 public class Solution {
     private final Double x1;
     private final Double x2;
