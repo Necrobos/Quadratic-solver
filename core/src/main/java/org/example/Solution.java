@@ -5,21 +5,23 @@ public class Solution {
     private final Double x2;
     private final boolean realNumFlag;
 
-    // Конструктор для двух корней
+
+    public Double getX1(){return x1;}
+    public Double getX2(){return x2;}
     public Solution(double x1, double x2) {
         this.x1 = x1;
         this.x2 = x2;
         this.realNumFlag = true;
     }
 
-    // Конструктор для одного корня
+
     public Solution(double x) {
         this.x1 = x;
         this.x2 = null;
         this.realNumFlag = true;
     }
 
-    // Конструктор для случая без корней
+
     public Solution() {
         this.x1 = null;
         this.x2 = null;
