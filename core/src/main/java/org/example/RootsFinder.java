@@ -1,3 +1,5 @@
+package org.example;
+
 public class RootsFinder {
     /**
      * Класс для решения квадратного уравнения
