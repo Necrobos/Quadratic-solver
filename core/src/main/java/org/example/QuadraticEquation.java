@@ -9,6 +9,9 @@ public class QuadraticEquation {
     private final double c;
 
     public QuadraticEquation(double a, double b, double c) {
+        if (a == 0) {
+            throw new IllegalArgumentException("Coefficient 'a' cannot be zero");
+        }
         this.a = a;
         this.b = b;
         this.c = c;
