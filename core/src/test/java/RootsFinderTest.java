@@ -12,4 +12,10 @@ public class RootsFinderTest {
         Solution solution = new RootsFinder().solve(eq);
         assertEquals(-1, solution.getX1(), 0.001);
     }
+    @Test
+    void shouldSolveEquation2() {
+        QuadraticEquation eq = new QuadraticEquation(1, 2, 1);
+        Solution solution = new RootsFinder().solve(eq);
+        assertEquals(-1, solution.getX1(), 0.001);
+    }
 }

@@ -8,6 +8,7 @@ public class Solution {
 
     public Double getX1(){return x1;}
     public Double getX2(){return x2;}
+    public boolean getRealNumFlag(){return realNumFlag;}
     public Solution(double x1, double x2) {
         this.x1 = x1;
         this.x2 = x2;
